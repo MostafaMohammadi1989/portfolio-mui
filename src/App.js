@@ -1,6 +1,6 @@
-import { createGlobalStyle } from "styled-components";
-import ButtonCompoennts from "./button/Button";
+// import { createGlobalStyle } from "styled-components";
 import { CssBaseline } from "@mui/material";
+import Navbar from "./navbar/Navbar.js";
 
 // const GlobalStyle = createGlobalStyle`
 //   body {
@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       {/* <GlobalStyle /> */}
       <CssBaseline />
-      <ButtonCompoennts />
+      <Navbar />
     </div>
   );
 }
